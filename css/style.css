@@ -1,0 +1,286 @@
+.top_bar {
+    font-size: 15px;
+    color: #928e87;
+    margin: 8px 10px;
+}
+
+.top_bar i {
+    font-size: 18px;
+    padding: 3px 10px;
+    float: right;
+    transition: all 0.3s ease;
+}
+
+.top_bar i:hover {
+    color: #fcdb5a;
+    cursor: pointer;
+}
+
+.top_bar_devider {
+    width: 100%;
+    height: 2px;
+    background: #f3f3f3;
+    margin-top: -15px;
+}
+
+.top_bar {
+    font-size: 15px;
+    color: #928e87;
+    margin: 8px 10px;
+}
+
+.top_bar i {
+    font-size: 18px;
+    padding: 3px 10px;
+    float: right;
+    transition: all 0.3s ease;
+}
+
+.top_bar i:hover {
+    color: #fcdb5a;
+    cursor: pointer;
+}
+
+.top_bar_devider {
+    width: 100%;
+    height: 2px;
+    background: #f3f3f3;
+    margin-top: -15px;
+}
+
+.nav_style>ul>li>a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+}
+
+.navbar_control {
+    margin: 10px 20px;
+}
+
+.user_section {
+    color: #929292;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    transform: translateY(26px);
+}
+
+.user_section i {
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.user_section i:hover {
+    color: #fcdb5a;
+}
+
+.user_section button {
+    font-size: 16px;
+    padding: 4px 31px;
+    border-radius: 50px;
+    border: none;
+    background: #fcdb5a;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.user_section button:hover {
+    padding: 6px 35px;
+    z-index: 3;
+}
+
+.first_slide {
+    height: 550px;
+    width: 100%;
+    background-image: url(../img/img_7.jpg);
+}
+
+.slide_content h1 {
+    font-size: 70px;
+    font-weight: 200;
+    transform: translateY(140px);
+}
+
+.slide_content h1 strong {
+    font-weight: bold;
+}
+
+.slide_content button {
+    font-size: 20px;
+    background: white;
+    transform: translateY(162px);
+    padding: 6px 37px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px grey;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.slide_content button:hover {
+    padding: 8px 40px;
+    background: #fcdb5a;
+    color: #fff
+}
+
+.second_slide {
+    height: 550px;
+    width: 100%;
+    background-image: url(../img/img_8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.category_section {
+    margin-top: 30px;
+    --animate-duration: 3s;
+}
+
+.feature_divider {
+    height: 80px;
+    background: #e5e5e5;
+    width: 3px;
+    margin-left: 40px;
+}
+
+.feature_content {
+    display: flex;
+    align-items: center;
+}
+
+.feature_section {
+    margin-top: 70px;
+}
+
+.feature_inner h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature_inner i {
+    color: #ff9191;
+    font-size: 50px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.feature_inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature_products {
+    margin-top: 40px;
+}
+
+.section_title {
+    font-size: 41px;
+    font-weight: 300;
+    color: #333;
+}
+
+.section_title strong {
+    font-weight: bold;
+}
+
+.product h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.product {
+    text-align: center;
+    border: 1px solid #92929255;
+    border-radius: 5px;
+    margin: 15px 10px;
+    padding: 30px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.product:hover {
+    box-shadow: 2px 2px 15px rgba(179, 177, 177, 0.616);
+    padding: 40px 5px;
+    margin: -11px 5px;
+}
+
+.product:hover>img {
+    width: 180px;
+}
+
+.product h3 {
+    margin-bottom: 18px
+}
+
+.product button {
+    font-size: 15px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 40px;
+    border: 1px solid #fcdb5a;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.product button:hover {
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.383);
+    padding: 12px 27px;
+    background: #fcdb5a;
+}
+
+.product img {
+    margin-bottom: 15px;
+    width: 160px;
+    transition: all 0.3s ease;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+}
+
+.pc_section {
+    margin: 30px 0;
+}
+
+.pc_section_btn {
+    background: white;
+    border: 1px solid #fcdb5a;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 19px;
+    margin: 12px 0;
+    transition: all 0.3s ease;
+}
+
+.pc_section_btn:hover {
+    background: #fcdb5a;
+    padding: 10px 32px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.cp-cnt {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cp-cnt img {
+    margin-bottom: 10px;
+    text-align: center;
+}

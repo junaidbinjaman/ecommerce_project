@@ -1,0 +1,30 @@
+.top_bar {
+    font-size: 15px;
+    color: #928e87;
+    margin: 8px 10px;
+}
+
+.top_bar i {
+    font-size: 18px;
+    padding: 3px 10px;
+    float: right;
+    transition: all 0.3s ease;
+}
+
+.top_bar i:hover {
+    color: #fcdb5a;
+    cursor: pointer;
+}
+
+.top_bar_devider {
+    width: 100%;
+    height: 2px;
+    background: #f3f3f3;
+    margin-top: -15px;
+}
+
+.nav_style>ul>li>a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+}
